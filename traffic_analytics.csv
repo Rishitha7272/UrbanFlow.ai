@@ -1,0 +1,31 @@
+timestamp,frame_idx,active_phase,state,timer,total_congestion,emergency_override,emergency_lane,reason,North_count,North_density,South_count,South_density,East_count,East_density,West_count,West_density
+2026-05-19 12:30:16,0,North-South Green,GREEN,9.0,18.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=9.0s",0,0.0,2,2.0,6,7.0,9,9.5
+2026-05-19 12:30:16,30,North-South Green,GREEN,8.0,19.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=8.0s",0,0.0,3,2.5,6,7.5,10,9.5
+2026-05-19 12:30:16,60,North-South Green,GREEN,7.0,26.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=7.0s",0,0.0,3,2.5,7,10.0,10,13.5
+2026-05-19 12:30:16,90,North-South Green,GREEN,6.0,21.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=6.0s",0,0.0,4,3.5,7,8.5,10,9.0
+2026-05-19 12:30:16,120,North-South Green,GREEN,5.0,24.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=5.0s",1,1.0,4,5.0,8,8.0,10,10.5
+2026-05-19 12:30:16,150,North-South Green,GREEN,4.0,25.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=4.0s",1,0.5,5,6.5,8,8.0,9,10.0
+2026-05-19 12:30:17,180,North-South Green,GREEN,3.0,25.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=3.0s",2,1.5,5,6.5,8,11.0,8,6.0
+2026-05-19 12:30:17,210,North-South Green,GREEN,2.0,25.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=2.0s",2,2.0,6,5.5,8,7.0,8,10.5
+2026-05-19 12:30:17,240,North-South Green,GREEN,1.0,28.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=1.0s",2,1.5,6,7.5,7,9.0,8,10.5
+2026-05-19 12:30:17,270,North-South Green,YELLOW,3.0,25.0,False,,"Allocated green time based on lane density. State=YELLOW, Timer=3s",3,4.0,6,9.0,6,5.5,7,6.5
+2026-05-19 12:30:17,300,North-South Green,YELLOW,2.0,22.5,False,,"Allocated green time based on lane density. State=YELLOW, Timer=2.0s",4,4.0,6,5.5,6,7.0,6,6.0
+2026-05-19 12:30:17,330,North-South Green,YELLOW,1.0,24.0,False,,"Allocated green time based on lane density. State=YELLOW, Timer=1.0s",4,5.0,5,4.5,6,7.0,6,7.5
+2026-05-19 12:30:17,360,North-South Green,RED_ALL,2.0,30.0,False,,"Allocated green time based on lane density. State=RED_ALL, Timer=2s",4,5.5,5,9.5,5,8.0,6,7.0
+2026-05-19 12:30:17,390,North-South Green,RED_ALL,1.0,20.0,False,,"Allocated green time based on lane density. State=RED_ALL, Timer=1.0s",4,3.5,4,4.0,5,6.5,6,6.0
+2026-05-19 12:30:17,420,East-West Green,GREEN,43.0,20.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=43s",3,3.0,4,3.5,4,5.5,6,8.0
+2026-05-19 12:30:17,450,East-West Green,GREEN,42.0,20.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=42.0s",3,3.0,3,4.5,4,3.5,7,9.5
+2026-05-19 12:30:17,480,East-West Green,GREEN,41.0,21.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=41.0s",2,2.0,3,3.0,4,5.5,8,11.0
+2026-05-19 12:30:17,510,East-West Green,GREEN,40.0,18.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=40.0s",2,1.5,2,1.5,4,4.0,8,11.0
+2026-05-19 12:30:17,540,East-West Green,GREEN,39.0,20.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=39.0s",1,2.5,2,2.0,5,5.5,8,10.5
+2026-05-19 12:30:17,570,East-West Green,GREEN,38.0,21.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=38.0s",1,0.5,2,3.0,6,7.5,9,10.0
+2026-05-19 12:30:17,600,East-West Green,GREEN,37.0,18.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=37.0s",0,0.0,2,2.0,6,5.0,9,11.5
+2026-05-19 12:30:18,630,East-West Green,GREEN,36.0,21.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=36.0s",0,0.0,3,4.0,6,7.0,10,10.5
+2026-05-19 12:30:18,660,East-West Green,GREEN,35.0,26.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=35.0s",0,0.0,4,5.0,7,8.5,10,12.5
+2026-05-19 12:30:18,690,East-West Green,GREEN,34.0,23.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=34.0s",0,0.0,4,5.5,7,8.0,10,9.5
+2026-05-19 12:30:18,720,East-West Green,GREEN,33.0,26.0,False,,"Allocated green time based on lane density. State=GREEN, Timer=33.0s",1,1.0,4,5.5,8,8.5,10,11.0
+2026-05-19 12:30:18,750,East-West Green,GREEN,32.0,25.5,False,,"Allocated green time based on lane density. State=GREEN, Timer=32.0s",2,2.0,5,4.5,8,8.5,9,10.5
+2026-05-19 12:30:18,780,East-West Green,YELLOW,3.0,26.5,True,North,EMERGENCY OVERRIDE active for lane 'North',2,4.0,5,4.5,8,10.5,8,7.5
+2026-05-19 12:30:18,810,East-West Green,YELLOW,2.0,27.5,False,,"Allocated green time based on lane density. State=YELLOW, Timer=2.0s",2,2.0,6,7.0,8,11.0,8,7.5
+2026-05-19 12:30:18,840,East-West Green,YELLOW,1.0,26.0,False,,"Allocated green time based on lane density. State=YELLOW, Timer=1.0s",3,2.5,6,5.5,7,8.0,7,10.0
+2026-05-19 12:30:18,870,East-West Green,RED_ALL,2.0,25.5,False,,"Allocated green time based on lane density. State=RED_ALL, Timer=2s",4,4.0,6,5.5,6,7.0,7,9.0

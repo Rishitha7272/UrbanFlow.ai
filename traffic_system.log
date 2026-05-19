@@ -1,0 +1,55 @@
+[2026-05-19 12:30:16] [INFO] [app.py:40] - Initializing AI Traffic Signal Optimization System...
+[2026-05-19 12:30:16] [INFO] [app.py:47] - No video file provided. Generating simulated traffic video...
+[2026-05-19 12:30:16] [INFO] [utils.py:11] - Generating mock traffic video at 'sample_traffic.mp4'...
+[2026-05-19 12:30:16] [INFO] [utils.py:119] - Mock video generated successfully with 900 frames.
+[2026-05-19 12:30:16] [INFO] [detector.py:16] - Initializing VehicleDetector in Mock/Simulation mode...
+[2026-05-19 12:30:16] [INFO] [app.py:78] - Input Video: sample_traffic.mp4 (850x480 @ 30.0 FPS, 900 frames)
+[2026-05-19 12:30:16] [INFO] [app.py:79] - Internal Target Processing Resolution: 850x480
+[2026-05-19 12:30:16] [INFO] [app.py:90] - Writing annotated output to: output_traffic.mp4
+[2026-05-19 12:30:16] [INFO] [traffic_controller.py:91] - Frame: 0 | Phase: North-South Green | Counts: {'North': 0, 'South': 2, 'East': 6, 'West': 9} | Congestion Score: 18.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=9.0s
+[2026-05-19 12:30:16] [INFO] [traffic_controller.py:91] - Frame: 30 | Phase: North-South Green | Counts: {'North': 0, 'South': 3, 'East': 6, 'West': 10} | Congestion Score: 19.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=8.0s
+[2026-05-19 12:30:16] [INFO] [traffic_controller.py:91] - Frame: 60 | Phase: North-South Green | Counts: {'North': 0, 'South': 3, 'East': 7, 'West': 10} | Congestion Score: 26.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=7.0s
+[2026-05-19 12:30:16] [INFO] [traffic_controller.py:91] - Frame: 90 | Phase: North-South Green | Counts: {'North': 0, 'South': 4, 'East': 7, 'West': 10} | Congestion Score: 21.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=6.0s
+[2026-05-19 12:30:16] [INFO] [app.py:134] - Processing progress: 100 frames (11.1%)
+[2026-05-19 12:30:16] [INFO] [traffic_controller.py:91] - Frame: 120 | Phase: North-South Green | Counts: {'North': 1, 'South': 4, 'East': 8, 'West': 10} | Congestion Score: 24.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=5.0s
+[2026-05-19 12:30:16] [INFO] [traffic_controller.py:91] - Frame: 150 | Phase: North-South Green | Counts: {'North': 1, 'South': 5, 'East': 8, 'West': 9} | Congestion Score: 25.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=4.0s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 180 | Phase: North-South Green | Counts: {'North': 2, 'South': 5, 'East': 8, 'West': 8} | Congestion Score: 25.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=3.0s
+[2026-05-19 12:30:17] [INFO] [app.py:134] - Processing progress: 200 frames (22.2%)
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 210 | Phase: North-South Green | Counts: {'North': 2, 'South': 6, 'East': 8, 'West': 8} | Congestion Score: 25.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=2.0s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 240 | Phase: North-South Green | Counts: {'North': 2, 'South': 6, 'East': 7, 'West': 8} | Congestion Score: 28.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=1.0s
+[2026-05-19 12:30:17] [INFO] [signal_logic.py:106] - Phase 0 (North-South Green) green expired. Transitioning to Yellow.
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 270 | Phase: North-South Green | Counts: {'North': 3, 'South': 6, 'East': 6, 'West': 7} | Congestion Score: 25.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=YELLOW, Timer=3s
+[2026-05-19 12:30:17] [INFO] [app.py:134] - Processing progress: 300 frames (33.3%)
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 300 | Phase: North-South Green | Counts: {'North': 4, 'South': 6, 'East': 6, 'West': 6} | Congestion Score: 22.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=YELLOW, Timer=2.0s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 330 | Phase: North-South Green | Counts: {'North': 4, 'South': 5, 'East': 6, 'West': 6} | Congestion Score: 24.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=YELLOW, Timer=1.0s
+[2026-05-19 12:30:17] [INFO] [signal_logic.py:112] - Transitioning to RED-ALL buffer.
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 360 | Phase: North-South Green | Counts: {'North': 4, 'South': 5, 'East': 5, 'West': 6} | Congestion Score: 30.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=RED_ALL, Timer=2s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 390 | Phase: North-South Green | Counts: {'North': 4, 'South': 4, 'East': 5, 'West': 6} | Congestion Score: 20.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=RED_ALL, Timer=1.0s
+[2026-05-19 12:30:17] [INFO] [app.py:134] - Processing progress: 400 frames (44.4%)
+[2026-05-19 12:30:17] [INFO] [signal_logic.py:147] - Phase 1 (East-West Green) active with dynamic Green: 43s.
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 420 | Phase: East-West Green | Counts: {'North': 3, 'South': 4, 'East': 4, 'West': 6} | Congestion Score: 20.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=43s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 450 | Phase: East-West Green | Counts: {'North': 3, 'South': 3, 'East': 4, 'West': 7} | Congestion Score: 20.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=42.0s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 480 | Phase: East-West Green | Counts: {'North': 2, 'South': 3, 'East': 4, 'West': 8} | Congestion Score: 21.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=41.0s
+[2026-05-19 12:30:17] [INFO] [app.py:134] - Processing progress: 500 frames (55.6%)
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 510 | Phase: East-West Green | Counts: {'North': 2, 'South': 2, 'East': 4, 'West': 8} | Congestion Score: 18.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=40.0s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 540 | Phase: East-West Green | Counts: {'North': 1, 'South': 2, 'East': 5, 'West': 8} | Congestion Score: 20.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=39.0s
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 570 | Phase: East-West Green | Counts: {'North': 1, 'South': 2, 'East': 6, 'West': 9} | Congestion Score: 21.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=38.0s
+[2026-05-19 12:30:17] [INFO] [app.py:134] - Processing progress: 600 frames (66.7%)
+[2026-05-19 12:30:17] [INFO] [traffic_controller.py:91] - Frame: 600 | Phase: East-West Green | Counts: {'North': 0, 'South': 2, 'East': 6, 'West': 9} | Congestion Score: 18.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=37.0s
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 630 | Phase: East-West Green | Counts: {'North': 0, 'South': 3, 'East': 6, 'West': 10} | Congestion Score: 21.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=36.0s
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 660 | Phase: East-West Green | Counts: {'North': 0, 'South': 4, 'East': 7, 'West': 10} | Congestion Score: 26.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=35.0s
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 690 | Phase: East-West Green | Counts: {'North': 0, 'South': 4, 'East': 7, 'West': 10} | Congestion Score: 23.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=34.0s
+[2026-05-19 12:30:18] [INFO] [app.py:134] - Processing progress: 700 frames (77.8%)
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 720 | Phase: East-West Green | Counts: {'North': 1, 'South': 4, 'East': 8, 'West': 10} | Congestion Score: 26.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=33.0s
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 750 | Phase: East-West Green | Counts: {'North': 2, 'South': 5, 'East': 8, 'West': 9} | Congestion Score: 25.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=GREEN, Timer=32.0s
+[2026-05-19 12:30:18] [WARNING] [signal_logic.py:87] - Emergency vehicle override triggered on lane: North
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 780 | Phase: East-West Green | Counts: {'North': 2, 'South': 5, 'East': 8, 'West': 8} | Congestion Score: 26.5 | Emergency: True | Decision Reason: EMERGENCY OVERRIDE active for lane 'North'
+[2026-05-19 12:30:18] [INFO] [app.py:134] - Processing progress: 800 frames (88.9%)
+[2026-05-19 12:30:18] [INFO] [signal_logic.py:96] - Emergency vehicle cleared. Restoring standard cycles.
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 810 | Phase: East-West Green | Counts: {'North': 2, 'South': 6, 'East': 8, 'West': 8} | Congestion Score: 27.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=YELLOW, Timer=2.0s
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 840 | Phase: East-West Green | Counts: {'North': 3, 'South': 6, 'East': 7, 'West': 7} | Congestion Score: 26.0 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=YELLOW, Timer=1.0s
+[2026-05-19 12:30:18] [INFO] [signal_logic.py:112] - Transitioning to RED-ALL buffer.
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:91] - Frame: 870 | Phase: East-West Green | Counts: {'North': 4, 'South': 6, 'East': 6, 'West': 7} | Congestion Score: 25.5 | Emergency: False | Decision Reason: Allocated green time based on lane density. State=RED_ALL, Timer=2s
+[2026-05-19 12:30:18] [INFO] [app.py:134] - Processing progress: 900 frames (100.0%)
+[2026-05-19 12:30:18] [INFO] [traffic_controller.py:127] - Traffic analytics successfully exported to traffic_analytics.csv.
+[2026-05-19 12:30:18] [INFO] [app.py:152] - Processing finished. Total frames processed: 900
